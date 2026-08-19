@@ -1009,3 +1009,34 @@ h3 {
     }
 
 }
+
+.illustration {
+    padding: 15px;
+    background: #f7f8fb;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    overflow: hidden;
+
+    /* Remove forced sizing */
+    height: auto !important;
+    min-height: 0 !important;
+    aspect-ratio: auto !important;
+}
+
+.illustration img {
+    display: block;
+
+    /* Keep the ORIGINAL image proportions */
+    width: 100% !important;
+    height: auto !important;
+
+    max-width: 100%;
+    max-height: none;
+
+    object-fit: initial !important;
+
+    border-radius: 6px;
+}
