@@ -864,6 +864,25 @@ h3 {
 
 @media (max-width: 800px) {
 
+    .illustration {
+    height: auto;
+
+    min-height: 220px;
+
+    padding: 15px;
+}
+
+
+.illustration img {
+    width: 100%;
+
+    height: auto;
+
+    max-height: 300px;
+
+    object-fit: contain;
+}
+
     .container {
         width:
             min(
