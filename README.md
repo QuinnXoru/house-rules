@@ -1,0 +1,1 @@
+This website is used for the house rules of CSIT students in NU Las Pinas
